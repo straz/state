@@ -18,22 +18,22 @@ seconds to update my entire site. Github Pages then serves this site for free.
 Jekyll is easier to manage than traditional blogging tools. It's
 retro, a return to simpler tools. Modern web sites and blog engines
 (like Wordpress or Drupal) are dynamic, meaning some code is run on
-the server each time you view a page. All this dynamic server code
-adds management complexity and presents an opportunity to exploit
-security flaws.
+the server each time you view a page. This dynamic server code
+adds management complexity and presents opportunities for security flaws.
 
-Most pages are static, meaning they don't change each time you
-look at them. When the web was invented in the 1990's, most pages were
-static html files. The file you put on the server was exactly what the
-browser loaded. Static files are incredibly efficient to serve, easy
-to manage, and offer practically no opportunities for malware to
-affect the server.
+When the web was invented in the 1990's, most pages were static html
+files. The file you put on the server was exactly what the browser
+loaded. Today, most web pages have static content, meaning they don't
+change each time you look at them, but they're served in a dynamic
+way.  Serving static files is much more efficient. Load times are
+faster, they're easier to manage, and offer practically no
+opportunities for malware to affect the server.
 
-With jekyll, there is no server software for me to manage, configure,
-or maintain.  The files themselves are static, which means there is no
-vendor lock-in.  I can move my site to any other ISP any time I want
-by just copying a folder, and I don't have to do much else to be up
-and running.
+With Jekyll, there is no server software to manage, configure, or
+maintain.  There is no vendor lock-in.  I can move my site to any
+other ISP any time I want by just copying a folder, and I don't have
+to do much else to be up and running. Jekyll is itself a free open
+source tool that can run pretty much anywhere, including your laptop.
 
 Jekyll lets you avoid cut-and-paste repetition by using templates. You
 can focus on just writing content, and let the templates handle the
@@ -41,11 +41,12 @@ other stuff like formatting or nav bars.
 
 ### Why Markdown is interesting
 
-Markdown is easier to write than HTML. Instead of adding HTML tags,
+Markdown is easier to write and maintain than HTML, because the raw
+source files are more human-readable. Instead of adding HTML tags,
 Markdown gives you a few basic and easy-to-write markup tools. For
 example, to *italicize* some text, just surround it with asterisks.
 
-<pre><code>For example, to *italicize* some text, just surround it with asterisks.</code></pre>
+To see how simple this is, take a look at the [raw source text](https://raw.githubusercontent.com/straz/state/gh-pages/colophon.md) for this page.
 
 If you want to add fancy HTML to a markdown page, you can.
 I find that for basic text blogging, this just isn't necessary.
