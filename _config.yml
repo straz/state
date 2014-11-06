@@ -1,5 +1,5 @@
 # Site settings
-title: State Machines
+name: State Machines
 email: steve@statemachines.us
 description: A blog about governance
 baseurl: ""      # site subpath, e.g. /blog/
