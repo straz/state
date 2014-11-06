@@ -5,23 +5,23 @@ Colophon
 ======
 
 To author this web site, I write all the pages in
-(Markdown)[http://help.github.com/articles/markdown-basics/] using a
+[Markdown](http://help.github.com/articles/markdown-basics/) using a
 plain ascii editor. After I write something, I upload the changes
-(using git) to (Github Pages)[pages.github.com].
+(using git) to [Github Pages](http://pages.github.com).
 
 After each upload, Github Pages automatically runs
-(Jekyll)[jekyllrb.com]. Jekyll processes the markdown pages and turns
-them all into static HTML pages. This process typically takes less
-than 5 seconds to update my entire site. Github Pages then serves my
-site for free.
+[Jekyll](http://jekyllrb.com). Jekyll processes the markdown pages and turns
+them all into static HTML pages. This process typically takes just a few
+seconds to update my entire site. Github Pages then serves this site for free.
 
 Why Markdown is interesting
 ---------------------------
 Markdown is easier to write than HTML. Instead of adding HTML tags,
 Markdown gives you a few basic and easy-to-write markup tools. For
-example, to make some text *bold*, just surround it with asterisks.
+example, to make some text *italic*, just surround it with asterisks.
 
-example: `to make some text *bold*, just surround it with asterisks.`
+<pre><code>For example, to make some text *italic*, just surround it with asterisks.
+</code></pre>
 
 If I want to add fancy HTML to a markdown page, I can do so. 
 I find that for basic text blogging, this just isn't necessary.
@@ -58,10 +58,12 @@ and efficient to reach audiences worldwide. I like managing my content
 with git, because it keeps track of all edits. I can easily compare, undo,
 and roll back to an older version of any of my content any time I wish.
 
+Github pages is free.
+
 Using git, I have a complete and accurate backup copy of all my files
 at all times. One copy is on my laptop, another is on Github's server,
 and I can make other copies elsewhere whenever I wish.  If something
 happens to either my laptop or to Github, or I just don't want to use
 them any more, I can switch very easily.
 
-Github pages is free - I pay nothing for world-class hosting.
+

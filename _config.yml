@@ -1,0 +1,12 @@
+# Site settings
+title: State Machines
+email: steve@statemachines.us
+description: A blog about governance
+baseurl: ""      # site subpath, e.g. /blog/
+url: "http://www.statemachines.us" 
+timezone: America/New_York
+
+defaults:
+ -
+  values:
+     layout: "default"
