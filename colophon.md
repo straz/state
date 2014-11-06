@@ -46,7 +46,9 @@ source files are more human-readable. Instead of adding HTML tags,
 Markdown gives you a few basic and easy-to-write markup tools. For
 example, to *italicize* some text, just surround it with asterisks.
 
-To see how simple this is, take a look at the [raw source text](https://raw.githubusercontent.com/straz/state/gh-pages/colophon.md) for this page.
+To see how simple this is, take a look at the [raw source 
+text](https://raw.githubusercontent.com/straz/state/gh-pages/colophon.md)
+for this page.
 
 If you want to add fancy HTML to a markdown page, you can.
 I find that for basic text blogging, this just isn't necessary.
