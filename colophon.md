@@ -6,12 +6,12 @@ title: Colophon
 To author this web site, I write all the pages in
 [Markdown](http://help.github.com/articles/markdown-basics/) using a
 plain ascii editor. After I write something, I upload the changes
-(using git) to [Github Pages](http://pages.github.com).
+(using [git](http://git-scm.com)) to [GitHub Pages](http://pages.github.com).
 
-After each upload, Github Pages automatically runs
+After each upload, GitHub Pages automatically runs
 [Jekyll](http://jekyllrb.com). Jekyll processes the markdown pages and turns
 them all into static HTML pages. This process typically takes just a few
-seconds to update my entire site. Github Pages then serves this site for free.
+seconds to update my entire site. GitHub Pages then serves this site for free.
 
 ### Why Jekyll is interesting
 
@@ -54,23 +54,23 @@ If you want to add fancy HTML to a markdown page, you can.
 I find that for basic text blogging, this just isn't necessary.
 
 
-### Why Github Pages is interesting
+### Why GitHub Pages is interesting
 
-Github Pages is jekyll-aware, meaning I just upload markdown files
-and Github runs jekyll on them automatically on their servers.
+GitHub Pages is jekyll-aware, meaning I just upload markdown files
+and GitHub runs jekyll on them automatically on their servers.
 
-Github Pages is hosted by github, which means it's extremely reliable
+GitHub Pages is hosted by GitHub, which means it's extremely reliable
 and efficient to reach audiences worldwide. Managing content with git
 is a very good idea, because it keeps track of all edits. I can easily
 compare, undo, and roll back to an older version of any of my content
 any time.
 
-Github Pages is free. Thank you, github.
+GitHub Pages is free. Thank you, GitHub.
 
 Using git, I have a complete and accurate backup copy of all my files
-at all times. One copy is on my laptop, another is on Github's server,
+at all times. One copy is on my laptop, another is on GitHub's server,
 and I can make other copies elsewhere whenever I wish.  If something
-happens to either my laptop or to Github, or I just don't want to use
+happens to either my laptop or to GitHub, or I just don't want to use
 them any more, I can switch very easily.
 
 
