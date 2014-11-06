@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
+    {% include google_analytics.html %}
     {% include header.html %}
-
     <div class="page-content">
-      <div class="wrapper">
+      <div class="wrap">
         {{ content }}
       </div>
     </div>
 
-    {% if NEVER %}
-    {% include footer.html %}
-    {% endif %}
-
   </body>
+
 
 </html>
