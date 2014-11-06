@@ -43,10 +43,9 @@ other stuff like formatting or nav bars.
 
 Markdown is easier to write than HTML. Instead of adding HTML tags,
 Markdown gives you a few basic and easy-to-write markup tools. For
-example, to make some text *italic*, just surround it with asterisks.
+example, to *italicize* some text, just surround it with asterisks.
 
-<pre><code>For example, to make some text *italic*, just surround it with asterisks.
-</code></pre>
+<pre><code>For example, to *italicize* some text, just surround it with asterisks.</code></pre>
 
 If you want to add fancy HTML to a markdown page, you can.
 I find that for basic text blogging, this just isn't necessary.
